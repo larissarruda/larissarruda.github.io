@@ -1,0 +1,42 @@
+html, body {
+  background-color:#121212;
+  color: #bb86fc;
+  margin: 0 auto;
+  max-width: 850px;
+  font-family:sans-serif;
+}
+
+main{
+  background-color:#303030;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+p {
+  line-height: 25px;
+}
+h1 {
+  margin-top: 10rem;
+  text-align: center;
+  
+}
+h1::after{
+  content:'';
+  height: 1px;
+  width: 200px;
+  display: block;
+  background: #bb86fc;
+  margin: 15px auto;
+  
+}
+li, ul {
+  list-style: none;
+  max-width: 200px;
+  font-size: 12px;
+  text-align: right;
+  line-height: 20px;
+
+}
+span{
+  width: 600px;
+}
